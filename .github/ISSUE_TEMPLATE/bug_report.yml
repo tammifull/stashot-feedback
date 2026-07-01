@@ -1,0 +1,26 @@
+name: 🐞 Bug report
+description: Something isn't working / 不具合の報告
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / 何が起きた？
+      description: Describe the bug and, if you can, the steps to reproduce it. / 再現手順があると助かります。
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: ShotStash version / バージョン
+      placeholder: "e.g. 0.2.0"
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version / macOS
+      placeholder: "e.g. macOS 14.5 (Apple Silicon)"
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else? / 補足（スクリーンショット・ログなど）
+      description: Screenshots or logs are welcome.
