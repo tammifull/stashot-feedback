@@ -7,6 +7,8 @@ These are ideas we're **considering** — not promises, and no dates. This is bu
 日本語での提案も大歓迎です。
 
 ## ✅ Shipped
+- **v0.5.0** — **Region text copy**: box any area in the annotation editor and copy just that text (OCR) · keyboard shortcuts throughout · capture-HUD manual close (×) & action toasts
+- **v0.4.x** — Annotation editor (Pro: crop · arrows · boxes · text · blur · rotate) · post-capture floating HUD (click to annotate, drag to export, right-click menu) · copy a shot's full OCR text · iCloud-folder sync option
 - **v0.2.0** — MCP server (`stashot-mcp`), CLI (`sss`), menu-bar app, AI-friendly site
 
 ## 🧭 Considering (help us prioritize with a 👍)
